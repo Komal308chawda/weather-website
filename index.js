@@ -22,10 +22,10 @@ btn.addEventListener('click',function()
 
 
 
-         city.innerHTML='Weatherof=<span>${nameval}</span>'
-        temp.innerHTML='temparature =<span>${convertion(temparature)}C</span>'
-        description.innerHTML='Skyconditions= <span>${(description)}</span>'
-        wind.innerHTML='Windspeed=<span>${windspeed}</span>' 
+         city.innerHTML=Weatherof=<span>${nameval}</span>
+        temp.innerHTML=temparature =<span>${convertion(temparature)}C</span>
+        description.innerHTML=Skyconditions= <span>${(description)}</span>
+        wind.innerHTML=Windspeed=<span>${windspeed}</span> 
 
     })
     .catch(err => alert('Incorrect city name'));
